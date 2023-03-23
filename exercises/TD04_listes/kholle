@@ -1,0 +1,18 @@
+def fonction1 (L,n):
+    l=[]
+    for elt in L:
+        if elt<n:
+            l.append(elt)
+    print(l)
+fonction1([2,6,0,34,1],8)
+
+
+def fonction2 (chaine):
+    l=[]
+    chaine_nv=chaine.split()
+    if chaine_nv[0]== chaine_nv[len(chaine_nv)-1]:
+        l.append(chaine_nv[0])
+    print(l)
+fonction2("je pense que je ")
+
+
